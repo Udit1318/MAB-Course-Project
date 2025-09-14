@@ -1,4 +1,4 @@
-# Bandit Batsman: Optimizing Cricket Strategy with Multi-Armed Bandits 🏏
+# Bandit Batsman: Optimizing Cricket Strategy with Multi-Armed Bandits 
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)
 
@@ -40,7 +40,7 @@ The project is broken down into five distinct problems, each with a unique objec
 * **Constraints:** Each match has a fixed number of balls (60) and wickets (4). The match ends if either resource is exhausted.
 * **Goal:** Maximize the total score aggregated over all simulated matches, $\sum_{m=1}^{M} s_m$.
 
-### 5. Contextual Bandits for Team Strategy 🤖
+### 5. Contextual Bandits for Team Strategy 
 * **Objective:** This problem introduces **context** in the form of different batter types. The outcome probabilities, $p_{out}(a, i)$ and $p_{run}(a, i)$, now depend on both the action `a` and the current batter `i`.
 * **Dual-Decision Problem:** The agent must make two decisions:
     1.  Select an action $a_t$ for the current batter.
@@ -58,25 +58,7 @@ This repository implements and compares several MAB algorithms to solve the prob
 
 ---
 
-## How to Run
 
-1.  **Clone the repository:**
-    ```sh
-    git clone [https://github.com/your-username/bandit-batsman.git](https://github.com/your-username/bandit-batsman.git)
-    cd bandit-batsman
-    ```
-
-2.  **Install dependencies:**
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-3.  **Run the simulation:**
-    ```sh
-    python main.py --problem 4
-    ```
-
----
 
 ## Results and Visualizations 
 The performance of the algorithms is evaluated using two primary visualizations:
