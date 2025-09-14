@@ -14,7 +14,7 @@ This project explores the application of **Multi-Armed Bandit (MAB) algorithms**
 A batsman at the crease constantly faces an **exploration-exploitation dilemma**:
 * **Exploit:** Play a shot that has historically yielded good results.
 * **Explore:** Try a different, potentially riskier shot that might lead to a better long-term outcome.
-
+ 
 This project models this dilemma by framing different batting actions as "arms" of a multi-armed bandit. The agent (the batsman) must learn the underlying reward and risk probabilities of each action by playing a series of balls.
 
 ---
